@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "TTLakes-Medium";
+  src: url(/src/fonts/TTLakes/TTLakes-Medium.woff);
+}
+@font-face {
+  font-family: "TTLakes-Bold";
+  src: url(/src/fonts/TTLakes/TTLakes-Bold.woff);
+}
+body {
+  font-family: "TTLakes-Medium", "Arial", sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+.nav-menu {
+  border-bottom: 1px solid #d9fff5;
+  display: flex;
+  gap: 16px;
+  background: #fff;
+  padding: 23px 24px 5px 24px;
+  align-items: center;
+}
+.bold {
+  font-family: "TTLakes-Bold", "Arial", sans-serif;
+  font-size: 14px;
+}
+
+hr {
+  width: 2px;
+  height: 32px;
+  border-radius: 1px;
+  background-color: #eaeaea;
+  border: none;
+}
+.nav-menu__logo {
+  padding-right: 250px;
+}
+.nav-menu__btn svg rect {
+  transition: fill 300ms ease-in-out;
+}
+.nav-menu__btn:hover svg path {
+  cursor: pointer;
+}
+.nav-menu__btn:hover svg rect {
+  fill: #b22f56;
+  cursor: pointer;
+}
+
+.content-buttons {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.content-buttons ::-webkit-scrollbar {
+  width: 1px;
+}
+a {
+  text-decoration: none;
+  color: #7e7e82;
+}
+
+.content-buttons__services {
+  transition: all 200ms ease-in;
+  padding: 8px;
+  border: 2px solid transparent;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+}
+.content-buttons__services:hover {
+  background-color: #fff;
+  border-radius: 6px;
+  border: 2px solid #b8ffec;
+}
+
+.content {
+  background-color: #f8f8f8;
+  width: 100%;
+}
+.content-container__about-text {
+  width: 100%;
+}
+.heading-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 24px 40px 0px;
+}
+.heading-text__highlight {
+  width: 4px;
+  height: 40px;
+  padding-right: 24px;
+  align-self: flex-end;
+}
+.content-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.content-container__about-text {
+  padding: 24px 24px 0px 24px;
+}
+
+.content-container__about-img {
+  padding: 25px;
+}
+img {
+  border-radius: 1%;
+  width: 100%;
+}
+.read-more {
+  display: flex;
+  gap: 8px;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+
+.read-more__icon img {
+  width: 24px;
+  height: 24px;
+}
+p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
