@@ -45,9 +45,7 @@
   .content-buttons ::-webkit-scrollbar {
     display: none;
   }
-  .heading-text__repair svg rect {
-    transition: fill 300ms ease-in-out;
-  }
+
   .content-container {
     display: flex;
     width: 100%;
@@ -65,6 +63,9 @@
   .read-more__icon img {
     width: 24px;
     height: 24px;
+  }
+  .heading-text__repair svg rect {
+    transition: fill 300ms ease-in-out;
   }
   .heading-text__repair:hover svg path {
     cursor: pointer;
