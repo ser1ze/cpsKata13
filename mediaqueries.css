@@ -86,6 +86,9 @@
   .heading-text__repair {
     display: none;
   }
+  .tablet {
+    display: none;
+  }
   .heading-text__checkstatus {
     display: none;
   }
